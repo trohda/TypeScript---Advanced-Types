@@ -41,6 +41,14 @@ const result = add(1, 1);
 const result2 = add("Tomek", " Rohda");
 result2.split(" ");
 
+const fetchUserData = {
+  id: "u1",
+  name: "Max",
+  // job: { title: "CEO", description: "My own company" },
+};
+
+// console.log(fetchUserData?.job?.title);
+
 // type UnknownEmployee = Employee | Admin;
 
 // //IN (exist in) TypeGuard
