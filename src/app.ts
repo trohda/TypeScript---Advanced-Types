@@ -49,6 +49,12 @@ const fetchUserData = {
 
 console.log(fetchUserData?.job?.title);
 
+const userInput = null;
+
+const storedData = userInput ?? "DEFAULT";
+
+console.log(storedData);
+
 // type UnknownEmployee = Employee | Admin;
 
 // //IN (exist in) TypeGuard
