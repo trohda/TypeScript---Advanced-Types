@@ -44,10 +44,10 @@ result2.split(" ");
 const fetchUserData = {
   id: "u1",
   name: "Max",
-  // job: { title: "CEO", description: "My own company" },
+  job: { title: "CEO", description: "My own company" },
 };
 
-// console.log(fetchUserData?.job?.title);
+console.log(fetchUserData?.job?.title);
 
 // type UnknownEmployee = Employee | Admin;
 
